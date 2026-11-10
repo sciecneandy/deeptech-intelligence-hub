@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="從技術原理、實證、專利到商業化的繁體中文 DeepTech 研究週報。">
+  <meta name="theme-color" content="#101d2b">
+  <title>DeepTech Intelligence Hub｜深科技研究週報</title>
+  <link rel="stylesheet" href="./hub.css">
+  <script src="./hub.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#archive">跳至週報</a>
+  <header class="hero">
+    <div class="shell">
+      <div class="masthead"><span><i></i> DEEPTECH INTELLIGENCE HUB</span><a href="#archive">瀏覽過刊 ↓</a></div>
+      <div class="lead">
+        <p class="kicker">RESEARCH BRIEFING / 01—04</p>
+        <h1>深科技研究週報</h1>
+        <p class="intro">從技術原理到商業化，追蹤深科技產業、半導體、科研政策與技術盡職調查。</p>
+        <p class="cadence">每週一至週四 · 09:00 台灣時間出刊</p>
+      </div>
+      <div id="streams" class="streams" aria-label="週報系列"></div>
+    </div>
+  </header>
+  <main class="shell" id="archive">
+    <div class="archive-heading">
+      <div><p class="kicker">THE ARCHIVE</p><h2>週報資料庫</h2></div>
+      <div class="search"><label for="query">搜尋週報</label><input id="query" type="search" placeholder="例如：Hybrid Bonding、量子、專利"></div>
+    </div>
+    <div class="filterbar">
+      <button type="button" class="quiet" id="all" aria-pressed="true">全部系列</button>
+      <label for="year">年份</label><select id="year"><option value="">全部年份</option></select>
+      <span id="count" role="status"></span>
+    </div>
+    <div id="issues" class="issues" aria-label="週報列表"><p>正在載入週報…</p></div>
+    <article id="reader" hidden aria-labelledby="report-title">
+      <p class="kicker" id="report-meta"></p>
+      <h2 id="report-title" tabindex="-1"></h2>
+      <p class="report-summary" id="report-summary"></p>
+      <nav class="reader-nav" id="reader-nav" aria-label="本期閱讀區"></nav>
+      <div id="report-body"></div>
+    </article>
+    <noscript>請啟用 JavaScript，以搜尋和閱讀過刊。</noscript>
+  </main>
+  <footer class="shell"><span>DEEPTECH INTELLIGENCE HUB</span><span>公開來源研究與投資 DD 學習資料</span></footer>
+</body>
+</html>
