@@ -1,0 +1,129 @@
+{
+  "sections": [
+    {
+      "kind": "main",
+      "title": "本週重點摘要",
+      "body": "本週最值得關注的是：**AI 晶片的競爭已不只取決於電晶體能縮小多少，還取決於能否將更多晶片有效率地整合在一起。**\n\n11 月 6 日，Reuters 報導全球半導體先進封裝產能正成為 AI 晶片供應的重要瓶頸。另一方面，11 月 9 日，日本半導體材料產業出現重大整併交易。\n\n本期挑選四項議題，其中兩項為觀測期間內的新聞，另外兩項為有助於理解產業競爭的既有技術研究，避免將舊公告誤列為本週新突破。\n\n| 主題 | 資訊日期 | 本期性質 | DD 關注程度 |\n|---|---|---|---|\n| AI 先進封裝產能與供應鏈 | 11/06 | 本週新聞 | 高 |\n| 日本半導體材料產業整併 | 11/09 | 本週新聞 | 高 |\n| High-NA EUV 與大型光罩 | 09/08 | 技術背景追蹤 | 高 |\n| Hybrid Bonding 與 HBM 技術路線 | 03/02、09/02 | 技術深度學習 | 高 |\n\n---"
+    },
+    {
+      "kind": "technology",
+      "title": "技術專題一：先進封裝成為 AI 晶片供應瓶頸",
+      "body": "### 1. 為什麼先進封裝越來越重要？\n\n傳統半導體產業主要透過縮小電晶體提升效能，但先進製程成本持續增加，單一晶片面積也受到製造限制。\n\n因此，產業開始採用異質整合（Heterogeneous Integration），將不同功能的晶片整合在同一封裝中。\n\n可以將它理解為建造一座城市。\n\n過去的做法是不斷增加單棟建築的高度；現在則是將多棟專業建築連結成一座高效率城市。\n\n其中：\n\n- GPU 負責大量平行運算。\n- HBM 提供高頻寬記憶體。\n- Interposer 負責晶片間的高密度連接。\n- CoWoS 將上述元件整合為高效能運算系統。\n\n### 2. 本週產業變化\n\nReuters 11 月 6 日報導指出，AI 需求正在推動全球先進封裝投資。\n\n報導引用 Yole Group 的預測，2026 年先進封裝營收可能首次超越傳統封裝，相關資本支出接近 280 億美元。\n\n這屬於產業研究機構的預測，並非已完成的年度統計。\n\n報導同時指出，TSMC 的 CoWoS 仍具有重要競爭地位，但產能限制促使其他企業尋找替代供應商。\n\n其中值得關注的台灣企業包括 ASE Technology Holding、矽品及 Powertech Technology。\n\n### 3. 技術 DD 應如何評估？\n\n對先進封裝新創或設備供應商而言，不能只看是否能完成封裝樣品。\n\n更重要的是：\n\n| 評估項目 | 主要技術指標 | 投資風險 |\n|---|---|---|\n| 晶片互連 | Interconnect Pitch | 密度不足，限制頻寬 |\n| 訊號傳輸 | Bandwidth、Latency | 系統效能未達需求 |\n| 散熱 | Thermal Resistance | 高功率運作不穩定 |\n| 製造 | Assembly Yield | 良率不足導致成本增加 |\n| 可靠度 | Thermal Cycling、Warpage | 長期使用失效 |\n| 產能 | UPH、設備稼動率 | 無法達成量產規模 |\n\n**投資解讀：** 先進封裝的競爭優勢不一定來自最小線寬，也可能來自良率、散熱、設備產能或製程整合能力。\n\n---"
+    },
+    {
+      "kind": "main",
+      "title": "技術專題二：日本半導體材料產業整併",
+      "body": "### 1. 本週重大交易\n\n11 月 9 日，Reuters 報導 Mitsui Chemicals 將收購半導體材料公司 JSR。\n\n交易價值約 **1.84 兆日圓（116.1 億美元）**。\n\n日本政策性金融機構 Development Bank of Japan 將參與投資。交易目標包括整合材料技術、強化半導體產業競爭力及改善業務組合。\n\n### 2. 為什麼材料公司值得關注？\n\n半導體製造不只是設備與晶片設計的競爭。\n\n材料純度、化學性質及製程穩定性，也會直接影響晶片良率。\n\n例如光阻材料（Photoresist）可理解為晶圓製造中的感光塗層。\n\n曝光時，特定區域的化學性質改變，後續才能形成需要的圖案。\n\n先進製程對光阻材料的要求包括：\n\n- 解析度。\n- 曝光靈敏度。\n- 線邊粗糙度（LER）。\n- 缺陷密度。\n- 批次一致性。\n\n對材料供應商而言，最大的競爭門檻通常不只是材料配方，而是能否通過客戶長期製程驗證。\n\n### 3. 投資 DD 解讀\n\n此次交易值得觀察的是材料技術整合能否帶來實際製程效益。\n\n對半導體材料新創，應特別確認：\n\n**技術面：** 是否有可重現的材料性能與製程驗證結果？\n\n**商業面：** 是否已進入晶圓廠或設備商的認證流程？\n\n**智財面：** 配方、製程與應用方法是否具有足夠的專利保護？\n\n**財務面：** 量產後的材料成本、品質控制及供應穩定性是否具有競爭力？\n\n值得注意的是，Mitsui Chemicals 宣稱整併可能帶來每年約 400 億日圓的額外獲利，但這仍屬未來預期，不能視為已實現效益。\n\n---"
+    },
+    {
+      "kind": "technology",
+      "title": "技術專題三：High-NA EUV 的真正挑戰",
+      "body": "### 1. High-NA EUV 是什麼？\n\nEUV（極紫外光微影）使用約 13.5 nm 波長的光，將光罩圖案轉移到晶圓。\n\nHigh-NA EUV 則進一步提高光學系統的數值孔徑（Numerical Aperture）。\n\n可以將它想像為更精密的相機鏡頭。\n\n數值孔徑越大，系統越有能力辨識細微圖案，但也會帶來景深、光罩與製程控制方面的新挑戰。\n\n### 2. 既有技術進展\n\nASML 與 Intel Foundry 在 2026 年 9 月公布 High-NA EUV 製造進展。\n\nASML 與 Intel Foundry 公告指出，相關晶圓處理累計超過 100 萬片。公告未提供其中實際商業量產晶圓的完整拆分，評估時應另外核對各產品層的量產範圍與良率。\n\n同月，ASML 與台積電宣布推動更大尺寸光罩的產業合作，目標於 2031 年建立試產線，並為 2033 年後的先進製程應用準備。\n\n這些都是先前公告，不是本週新進展。\n\n### 3. 投資 DD 重點\n\nHigh-NA EUV 的商業價值應從整體製程成本評估。\n\n即使單次曝光能形成更細微的圖案，仍需考慮設備價格、吞吐量、光罩成本、良率及後續蝕刻製程。\n\n特別值得比較的是：\n\n**High-NA 單次曝光**與**傳統 EUV 多重圖案化**，哪一種能在特定產品層提供較低的單位良品成本？\n\n這個問題比單純比較曝光解析度更具有投資價值。\n\n---"
+    },
+    {
+      "kind": "technology",
+      "title": "技術專題四：Hybrid Bonding 是否會取代 Microbump？",
+      "body": "### 1. 兩種技術的差異\n\nMicrobump（微凸塊）利用微小金屬接點連接晶片。\n\nHybrid Bonding（混合鍵合）則結合介電材料表面與金屬接點的直接鍵合，實現更高密度的晶片互連。\n\n生活化類比：\n\nMicrobump 像是使用許多微小焊點連接兩塊電路板。\n\nHybrid Bonding 則更接近將兩個高度平整的表面精準貼合，讓內部金屬接點直接形成連接。\n\n### 2. 為什麼沒有立即全面取代？\n\nHybrid Bonding 能提供更細密的互連，但製程難度也更高。\n\n例如：\n\n- 表面平坦度要求。\n- 微粒污染控制。\n- 對位精度。\n- 鍵合缺陷檢測。\n- 已知良品晶粒（KGD）管理。\n\n2026 年 9 月的產業分析指出，部分 HBM 產品仍可使用既有 Microbump 技術，因此 Hybrid Bonding 在 HBM 的大規模採用可能延後至後續世代。這屬於技術路線預測，而非所有記憶體廠商已確定的量產時程。\n\n### 3. 值得保存的研究素材\n\nimec 於 2026 年 3 月公布 NanoIC 試驗線的先進互連 PDK，涵蓋 Fine-pitch RDL 與 Die-to-Wafer Hybrid Bonding。\n\n這對學術團隊及新創具有參考價值，因為 PDK 可以讓設計者在實際製造前，理解製程限制與設計規則。\n\n---"
+    },
+    {
+      "kind": "dd",
+      "title": "競品與專利動態",
+      "body": "本期選擇兩件可查證的公開專利作為研究案例。兩者均非本週新公開專利，不應視為本週新增的專利威脅。\n\n| 公開號 | 技術主題 | 值得研究的請求項方向 |\n|---|---|---|\n| US20240355784A1 | 3D IC Hybrid Bonding | 晶片背面鍵合、TSV 與導電結構配置 |\n| US20260101681A1 | Wafer Bonding Method | 金屬氧化物鍵合層、表面改質與退火程序 |\n\n第一件專利描述透過晶片背面鍵合結構及 TSV 建立三維晶片互連。\n\n第二件專利則涉及利用非晶態金屬氧化物形成鍵合層，再經退火轉換材料結構的製程方法。\n\n對技術 DD 而言，應特別注意：\n\n**不能只比較專利標題或摘要。** 必須進一步分析獨立請求項、必要技術特徵、專利家族、有效國家及法律狀態，才能初步判斷技術重疊程度。\n\n本期僅提供專利研究素材，並未完成正式 FTO（Freedom to Operate）分析。\n\n---"
+    },
+    {
+      "kind": "main",
+      "title": "中文影音學習資源",
+      "body": "本期已查證以下兩支既有影片，但未找到足夠證據確認指定中文頻道在 11/03–11/09 期間有符合本期主題的新影片，因此不將舊影片標為本週新片。\n\n### 1. 曲博科技教室｜SEMICON Taiwan 2026 與量子科技\n\n**發布日期：2026/07/21**\n\n這支影片適合用於理解量子運算與半導體產業之間的關聯，尤其是量子位元、量子退火及不同量子硬體技術路線。\n\n### 2. 天下雜誌｜台積電 2 奈米與半導體材料供應鏈\n\n**發布日期：2026/01/21**\n\n影片聚焦材料供應商、先進製程及台灣半導體供應鏈，適合作為本期材料產業整併專題的延伸教材。\n\n### 社群來源核查說明\n\n本期未取得足以逐篇確認指定 Instagram 帳號及 Threads 帳號在觀測期間內發布內容的資料。\n\n因此，沒有將未驗證的貼文列為本週技術突破，也沒有依帳號名稱推測發布內容。\n\n---"
+    },
+    {
+      "kind": "dd",
+      "title": "學習測驗與解答",
+      "body": "**Q1：為什麼先進封裝對 AI GPU 特別重要？**\n\n因為 GPU 需要與大量高頻寬記憶體交換資料，封裝互連會直接影響頻寬、延遲、功耗及系統整體效能。\n\n**Q2：High-NA EUV 一定比傳統 EUV 更便宜嗎？**\n\n不一定。必須比較設備折舊、曝光次數、吞吐量、光罩成本及最終良率。\n\n**Q3：Hybrid Bonding 的主要技術障礙是什麼？**\n\n包括表面平坦度、微粒污染、對位精度、鍵合缺陷及量產良率。\n\n**Q4：為什麼材料公司的技術驗證週期可能很長？**\n\n因為材料性能必須與客戶實際製程整合，任何微小變化都可能影響缺陷、可靠度及良率。\n\n**Q5：為什麼專利摘要不足以判斷 FTO？**\n\n因為專利保護範圍主要由請求項界定，還必須確認法律狀態、有效地域及實際產品是否落入請求項範圍。\n\n---"
+    },
+    {
+      "kind": "dd",
+      "title": "本期投資 DD 綜合判斷",
+      "body": "本期四項技術議題可以歸納成一個核心觀察：\n\n**半導體產業的技術競爭，正從單點製程能力，轉向微影、材料、封裝與系統整合的共同最佳化。**\n\n對科研創業團隊而言，最有投資價值的技術不一定是能達到最小尺寸的技術，而是能在真實製造環境中改善成本、良率、產能或可靠度的解決方案。\n\n尤其值得優先研究三個方向：先進封裝良率與缺陷檢測、Hybrid Bonding 製程材料，以及 High-NA EUV 的周邊製程整合。\n\n這些領域均具有明確的工程問題，但仍需要透過實際客戶驗證、量產數據及智財分析，才能確認個別新創是否具備可投資的競爭優勢。\n\n**本期資料限制：** 已確認兩項觀測期間內的重要產業事件，另補充兩項較早的技術研究；沒有足夠證據確認本週有新的重大 GAA／CFET／BSPDN 技術突破，因此未以舊聞補充。指定社群帳號的逐篇更新及內部科研案件全文交叉比對尚未完成。"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "CoWoS｜晶圓上晶片封裝",
+      "definition": "將多顆晶片整合於高密度封裝系統"
+    },
+    {
+      "term": "HBM｜高頻寬記憶體",
+      "definition": "透過堆疊 DRAM 提升資料傳輸能力"
+    },
+    {
+      "term": "Interposer｜中介層",
+      "definition": "提供晶片之間的高密度連接"
+    },
+    {
+      "term": "High-NA EUV｜高數值孔徑極紫外光微影",
+      "definition": "提升細微圖案曝光能力"
+    },
+    {
+      "term": "Hybrid Bonding｜混合鍵合",
+      "definition": "結合介電材料與金屬直接鍵合"
+    },
+    {
+      "term": "TSV｜矽穿孔",
+      "definition": "穿過矽晶片的垂直電氣連接"
+    },
+    {
+      "term": "KGD｜已知良品晶粒",
+      "definition": "經測試確認符合要求的晶粒"
+    },
+    {
+      "term": "FTO｜自由實施分析",
+      "definition": "評估產品實施是否可能涉及他人有效專利"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Reuters｜AI 晶片先進封裝與供應鏈",
+      "url": "https://www.reuters.com/world/asia-pacific/ai-boom-turns-chip-packaging-into-next-battleground-semiconductors-2026-11-06/"
+    },
+    {
+      "title": "Mitsui Chemicals｜11 月 9 日 JSR 收購說明與投資人公告",
+      "url": "https://jp.mitsuichemicals.com/en/ir/information/2026/index.htm"
+    },
+    {
+      "title": "Reuters｜Mitsui Chemicals 宣布收購 JSR",
+      "url": "https://www.reuters.com/world/asia-pacific/mitsui-chemicals-dbj-buy-jsr-116-billion-filing-shows-2026-11-09/"
+    },
+    {
+      "title": "ASML 與 Intel Foundry｜High-NA EUV 合作",
+      "url": "https://www.investor.asml.com/news-releases/news-release-details/intel-foundry-and-asml-collaborate-accelerate-industry-readiness-high-na-euv"
+    },
+    {
+      "title": "台積電與 ASML｜大型光罩倡議",
+      "url": "https://pr.cld.tsmc.com/english/news/3338"
+    },
+    {
+      "title": "imec｜NanoIC 細間距 RDL 與混合鍵合 PDK",
+      "url": "https://www.imec-int.com/en/press/nanoic-opens-access-first-ever-fine-pitch-rdl-and-d2w-hybrid-bonding-interconnect-pdks"
+    },
+    {
+      "title": "Tom’s Hardware｜Hybrid Bonding 產業路線",
+      "url": "https://www.tomshardware.com/tech-industry/semiconductors/hybrid-bonding-roadmap-examined"
+    },
+    {
+      "title": "專利公開文本｜US20240355784A1",
+      "url": "https://patents.google.com/patent/US20240355784A1/en"
+    },
+    {
+      "title": "專利公開文本｜US20260101681A1",
+      "url": "https://patents.google.com/patent/US20260101681A1/en"
+    },
+    {
+      "title": "曲博科技教室｜SEMICON Taiwan 2026 與量子科技",
+      "url": "https://www.youtube.com/watch?v=zjpIjaavhpE"
+    },
+    {
+      "title": "天下雜誌｜台積電 2 奈米與半導體材料供應鏈",
+      "url": "https://www.youtube.com/watch?v=sKKAp1xYLVk"
+    }
+  ]
+}

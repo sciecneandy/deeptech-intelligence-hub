@@ -1,1 +1,40 @@
-[]
+[
+  {
+    "id": "2026-11-10-semiconductor",
+    "date": "2026-11-10",
+    "stream": "semiconductor",
+    "title": "先進封裝、JSR 收購與 High-NA EUV",
+    "summary": "從 AI 晶片的封裝瓶頸看材料與微影布局，再用混合鍵合與兩件公開專利拆解量產難題。",
+    "tags": [
+      "先進封裝",
+      "CoWoS",
+      "High-NA EUV",
+      "Hybrid Bonding",
+      "JSR",
+      "光阻",
+      "專利",
+      "HBM",
+      "混合鍵合"
+    ]
+  },
+  {
+    "id": "2026-11-09-venture",
+    "date": "2026-11-09",
+    "stream": "venture",
+    "title": "無人機配送、量子糾錯與 AI 基礎設施",
+    "summary": "從七件產業與資本事件看自主系統的商業部署、量子運算共設計，以及資料中心的電力與融資門檻。",
+    "tags": [
+      "Zipline",
+      "量子錯誤校正",
+      "IBM",
+      "Nooks",
+      "Lonza",
+      "Rezera",
+      "TeraWulf",
+      "Anthropic",
+      "AI Agent",
+      "募資",
+      "DD"
+    ]
+  }
+]
