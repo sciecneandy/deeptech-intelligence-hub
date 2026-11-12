@@ -114,7 +114,19 @@ function renderList() {
     });
     list.append(link);
   }
-  if (!filtered.length) list.append(element('p', '目前沒有符合條件的週報。'));
+  if (!filtered.length) {
+    const unpublished = stream && !issues.some(issue => issue.stream === stream);
+    list.append(element('p', unpublished ? '尚未上架' : '目前沒有符合條件的週報。'));
+  }
+}
+
+function clearReader() {
+  revision++;
+  selection = '';
+  byId('reader').hidden = true;
+  for (const id of ['report-title', 'report-meta', 'report-summary', 'reader-nav', 'report-body']) {
+    byId(id).replaceChildren();
+  }
 }
 
 function filter(next) {
@@ -196,14 +208,20 @@ async function showReport(issue, focus = false) {
 
 function readLocation(focus = false) {
   const requested = new URLSearchParams(location.hash.slice(1)).get('issue');
-  const issue = issues.find(entry => entry.id === requested) || issues[0];
-  if (issue) showReport(issue, focus && Boolean(requested));
+  const category = new URLSearchParams(location.hash.slice(1)).get('stream');
+  const linked = issues.find(entry => entry.id === requested);
+  const next = Object.hasOwn(streams, category) ? category : linked?.stream || '';
+  clearReader();
+  filter(next);
+  const issue = requested ? linked : issues.find(entry => !next || entry.stream === next);
+  if (issue && (!next || issue.stream === next)) showReport(issue, focus && Boolean(linked));
 }
 
 async function start() {
   for (const [id, [day, name]] of Object.entries(streams)) {
     const tab = button('', () => {
-      filter(id);
+      history.pushState(null, '', '#stream=' + id);
+      readLocation();
       byId('archive').scrollIntoView({block: 'start'});
     }, 'stream');
     tab.dataset.stream = id;
@@ -211,7 +229,10 @@ async function start() {
     tab.append(element('small', day), element('strong', name));
     byId('streams').append(tab);
   }
-  byId('all').addEventListener('click', () => filter(''));
+  byId('all').addEventListener('click', () => {
+    history.pushState(null, '', '#archive');
+    readLocation();
+  });
   byId('year').addEventListener('change', renderList);
   byId('query').addEventListener('input', renderList);
   window.addEventListener('hashchange', () => readLocation(true));
@@ -225,7 +246,7 @@ async function start() {
       issues = await loadJson('./reports/index.json');
     }
     issues = issues.filter(issue => /^\d{4}-\d{2}-\d{2}-(venture|semiconductor|policy|dd)$/.test(issue.id) &&
-      Object.hasOwn(streams, issue.stream)).sort((a, b) => b.date.localeCompare(a.date));
+      Object.hasOwn(streams, issue.stream) && issue.id === `${issue.date}-${issue.stream}`).sort((a, b) => b.date.localeCompare(a.date));
     for (const year of new Set(issues.map(issue => issue.date.slice(0, 4)))) {
       byId('year').append(element('option', year));
     }
