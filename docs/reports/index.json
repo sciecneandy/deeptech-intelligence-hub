@@ -1,5 +1,19 @@
 [
   {
+    "id": "2026-11-11-policy",
+    "date": "2026-11-11",
+    "stream": "policy",
+    "title": "科研補助、政策與醫療科技法規監測",
+    "summary": "整理企業跨域研發補助、FITI 徵件及醫材法規觀察。",
+    "tags": [
+      "科研補助",
+      "FITI",
+      "SBIR",
+      "FDA",
+      "醫材"
+    ]
+  },
+  {
     "id": "2026-11-10-semiconductor",
     "date": "2026-11-10",
     "stream": "semiconductor",
