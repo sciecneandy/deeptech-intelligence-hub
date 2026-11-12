@@ -1,0 +1,56 @@
+{
+  "sections": [
+    {
+      "kind": "main",
+      "title": "本週申請期限",
+      "body": "本期整理 2026 年 11 月 11 日的科研補助與醫材法規公開情報。既有徵案的截止日不代表公告是在本週發布。\n\n| 計畫 | 截止時間（台灣時間） | 重點 |\n|---|---|---|\n| 116 年度企業跨域研發補助 | 2026/12/07 17:30 | 至少兩家中小企業組成聯盟 |\n| FITI 2027 年第 1 梯次 | 2026/12/30 12:00 | 學研團隊創業培訓與商業化 |\n\n企業跨域研發補助應確認聯盟資格、合作協議、計畫書及提案簡報。FITI 應確認團隊成員資格、研發成果權利及商業化規劃。國科會科研創業計畫 116-1 已於 9 月 3 日截止。"
+    },
+    {
+      "kind": "main",
+      "title": "醫療科技法規觀察",
+      "body": "本期原報追蹤 FDA 對體外診斷醫材驗證及具自主或遠端操作能力的機器人醫材之相關文件。投資 DD 應確認預期用途、風險分類、驗證證據及適用的上市審查途徑。\n\n原報未完成新舊文件逐條版本比對，也未提供足以定位本週文件的正式標題。請由 FDA 指引資料庫核對具體文件、發布日期與適用範圍。"
+    },
+    {
+      "kind": "technology",
+      "title": "體外診斷與機器人醫材",
+      "body": "體外診斷驗證通常涉及檢測方法、分析性能與臨床證據。自主或遠端操作醫材則需釐清系統自主程度、人機責任、風險控制及失效應對。"
+    },
+    {
+      "kind": "dd",
+      "title": "投資 DD 提問",
+      "body": "- 預期用途及適用的上市審查途徑為何？\n- 驗證資料是否涵蓋預期使用族群、使用環境及可能失效？\n- 補助申請人、聯盟及技術權利是否符合公告資格？\n- 團隊是否已備妥合作協議、計畫書與提案資料？"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "IVD｜體外診斷",
+      "definition": "在人體外檢測人體檢體，以提供診斷等醫療資訊的器材。"
+    },
+    {
+      "term": "預期用途",
+      "definition": "製造商界定產品要達成的醫療目的及使用情境。"
+    }
+  ],
+  "sources": [
+    {
+      "title": "SBIR｜116 年度企業跨域研發補助申請須知",
+      "url": "https://sbir.org.tw/news/main_content?id=12468&s=index"
+    },
+    {
+      "title": "FITI｜2027 年第一梯次徵件說明",
+      "url": "https://fiti.stpi.niar.org.tw/activity/course/ce71dd48888c49c9a28698bcfd568613/info"
+    },
+    {
+      "title": "FDA｜CDRH 最新消息",
+      "url": "https://www.fda.gov/medical-devices/medical-devices-news-and-events/cdrh-new-news-and-updates"
+    },
+    {
+      "title": "FDA｜指引資料庫",
+      "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents"
+    },
+    {
+      "title": "歐盟｜EUDAMED",
+      "url": "https://health.ec.europa.eu/medical-devices-eudamed/getting-ready_en"
+    }
+  ]
+}
