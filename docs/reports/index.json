@@ -1,5 +1,21 @@
 [
   {
+    "id": "2026-11-12-dd",
+    "date": "2026-11-12",
+    "stream": "dd",
+    "title": "機器人 VLA 與具身智慧：從研究展示到商業部署的投資 DD",
+    "summary": "從零拆解視覺—語言—動作模型，對比 Gemini Robotics、GR00T N1.5 與 π0.5 的公開證據，建立可靠性、安全與單位經濟的 Pre-DD 驗證框架。",
+    "tags": [
+      "機器人",
+      "具身智慧",
+      "VLA",
+      "Physical AI",
+      "Sim-to-Real",
+      "技術DD",
+      "Pre-DD"
+    ]
+  },
+  {
     "id": "2026-11-11-policy",
     "date": "2026-11-11",
     "stream": "policy",
