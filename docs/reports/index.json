@@ -1,5 +1,23 @@
 [
   {
+    "id": "2026-11-16-venture",
+    "date": "2026-11-16",
+    "stream": "venture",
+    "title": "機器人五億美元融資、量子HPC結盟與AI代理商業化：全球DeepTech十項情報",
+    "summary": "聚焦11月9日至15日十大可查證交易與部署動態：Agile Robots、PsiQuantum、TSMC、Primordial Labs、Rox、Windward Bio等，分清募資、合作、公司主張及尚未取得的商業化證據。",
+    "tags": [
+      "DeepTech",
+      "VC",
+      "機器人",
+      "量子運算",
+      "AI Agent",
+      "太空與深海",
+      "生技IPO",
+      "AI安全",
+      "商業化DD"
+    ]
+  },
+  {
     "id": "2026-11-12-dd",
     "date": "2026-11-12",
     "stream": "dd",
