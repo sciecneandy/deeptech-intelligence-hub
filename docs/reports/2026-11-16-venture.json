@@ -1,0 +1,167 @@
+{
+  "metadata": {
+    "id": "2026-11-16-venture",
+    "date": "2026-11-16",
+    "stream": "venture",
+    "title": "機器人五億美元融資、量子HPC結盟與AI代理商業化：全球DeepTech十項情報",
+    "summary": "聚焦11月9日至15日十大可查證交易與部署動態：Agile Robots、PsiQuantum、TSMC、Primordial Labs、Rox、Windward Bio等，分清募資、合作、公司主張及尚未取得的商業化證據。",
+    "tags": [
+      "DeepTech",
+      "VC",
+      "機器人",
+      "量子運算",
+      "AI Agent",
+      "太空與深海",
+      "生技IPO",
+      "AI安全",
+      "商業化DD"
+    ]
+  },
+  "sections": [
+    {
+      "kind": "main",
+      "title": "本週投資摘要與篩選原則",
+      "body": "查核期間2026-11-09至11-15（台灣刊期11-16）。選出十項可由具體報導核對的DeepTech交易、合作、IPO與商業部署動態。重點：Agile Robots 5億美元融資；AMD與PsiQuantum量子-HPC合作；台積電最多10億美元AI股權投資核准；Primordial Labs 1,800萬美元A輪；Impossible Metals深海機器人小規模試驗；Windward Bio 1.75億美元IPO；Rox 1億美元融資；Bay 5,000萬美元融資；OpenAI收購Odessia；雙11AI購物助理部署。\n\n證據規則：報導中的公司敘述不等於獨立實證；董事會核准不等於完成交割；工廠產能不等於出貨；歷史募資不算本週募資；不憑募資估算TRL。來源以路透、Axios、WSJ及NASA官方為主，部分項目尚缺可獨立核對的公司原始公告，明確列為資料不足。NASA 11/07公告早於本期窗口，不計入十項。"
+    },
+    {
+      "kind": "main",
+      "title": "1. Agile Robots完成5億美元融資｜2026-11-12",
+      "body": "**事件與已查證資訊**：路透報導德國機器人公司Agile Robots募得5億美元，估值85億美元；SoftBank領投，NVIDIA與Hitachi參投。公司計畫擴張美國業務與產能；所述年產一萬台能力是工廠產能宣稱，非已出貨數。\n\n**技術原理／生活類比**：機器手臂、感測器與AI控制協作，如把工廠技師的手眼協調轉成可重複的機械操作。\n\n**融資、輪次、投資人**：5億美元；輪次未明確揭露；領投SoftBank，參投NVIDIA、Hitachi。\n\n**實證／TRL**：已報導融資及公司產能規劃；缺獨立現場長期稼動率、付費部署數及毛利資料。TRL：未判定。\n\n**競品**：ABB、FANUC、Universal Robots、Figure等；實際產品類別不同，僅為相鄰競爭。\n\n**商業模式**：工業機器人整機、整合及維運。\n\n**商業化瓶頸**：產能利用率、客戶驗收、單位經濟、工安與軟硬體整合。\n\n**投資DD追問**：要求分開揭露訂單、出貨、已驗收付費機器人、每小時產出與保固成本。\n\n來源：[Reuters 2026-11-12: SoftBank, Nvidia back Agile Robots](https://www.reuters.com/business/media-telecom/softbank-nvidia-back-germanys-agile-robots-85-billion-valuation-2026-11-12/)"
+    },
+    {
+      "kind": "main",
+      "title": "2. AMD擬投資PsiQuantum並擴大合作｜2026-11-12",
+      "body": "**事件與已查證資訊**：AMD宣布擬對PsiQuantum進行未揭露金額的股權投資，合作開發大型量子計算與HPC/AI整合系統；本週不是已完成量子優勢的證據。\n\n**技術原理／生活類比**：PsiQuantum用矽光子操控光量子位元；AMD提供CPU、GPU及軟體。類比為把量子實驗室與傳統超級電腦接上共同的工作台。\n\n**融資、輪次、投資人**：AMD股權投資金額、輪次未揭露。\n\n**實證／TRL**：合作與投資意向已報導；可重現的容錯量子運算效益、商業客戶收入未提供。TRL：未判定。\n\n**競品**：Quantinuum、IonQ、IBM、Google Quantum AI等，技術路線不同。\n\n**商業模式**：量子計算服務、HPC整合與產業共同研發。\n\n**商業化瓶頸**：光子損耗、糾錯資源、系統規模、冷卻與資本密集度。\n\n**投資DD追問**：要求實體/邏輯量子位元、錯誤率、應用基準、商業合約及投資條款。\n\n來源：[Reuters 2026-11-12: AMD to invest in PsiQuantum](https://www.reuters.com/business/amd-invest-psiquantum-advance-quantum-computing-infrastructure-2026-11-12/)"
+    },
+    {
+      "kind": "main",
+      "title": "3. TSMC董事會核准對兩家AI公司最多各5億美元投資｜2026-11-10",
+      "body": "**事件與已查證資訊**：路透報導台積電董事會核准對Anthropic及OpenAI各最多5億美元的投資安排；董事會核准上限不等於已全數撥款。\n\n**技術原理／生活類比**：AI模型與晶片供應鏈交叉持股，類比供應商同時成為大型客戶的股東。\n\n**融資、輪次、投資人**：各最多5億美元，合計上限10億美元；屬戰略投資安排，不是台積電自身募資。\n\n**實證／TRL**：核准投資安排；實際交割金額與投資報酬未確認。TRL不適用金融交易。\n\n**競品**：Anthropic、OpenAI、Google等模型生態。\n\n**商業模式**：模型API/企業訂閱；晶圓供應商的財務及生態策略。\n\n**商業化瓶頸**：關係人交易、估值、循環融資、資本支出與供需依賴。\n\n**投資DD追問**：核對股權條款、估值、投資是否附供貨／採購承諾及現金流風險。\n\n來源：[Reuters 2026-11-10: TSMC to invest in Anthropic and OpenAI](https://www.reuters.com/world/china/tsmc-invest-up-1-billion-anthropic-openai-2026-11-10/)"
+    },
+    {
+      "kind": "main",
+      "title": "4. Primordial Labs獲1,800萬美元A輪｜2026-11-10",
+      "body": "**事件與已查證資訊**：Axios報導Primordial Labs完成1,800萬美元Series A，Ballistic Ventures領投，旗下Anura語音介面已用於十餘種有人與無人系統（公司說法）。\n\n**技術原理／生活類比**：把自然語音轉成機器可執行命令，如把駕駛的口頭指示翻譯成控制介面指令。\n\n**融資、輪次、投資人**：1,800萬美元Series A；Ballistic Ventures領投。\n\n**實證／TRL**：融資報導及公司部署敘述；缺第三方任務成功率與安全審查。TRL：未判定。\n\n**競品**：Anduril及各類軍用人機介面／自主系統整合商。\n\n**商業模式**：國防軟體授權、系統整合與政府採購。\n\n**商業化瓶頸**：語音誤判、通訊干擾、軍規資安、採購週期及出口管制。\n\n**投資DD追問**：要求有噪音場景的命令準確率、誤觸發率、接管機制、實際付費合約。\n\n來源：[Axios 2026-11-10: Primordial Labs Series A](https://www.axios.com/2026/11/10/primordial-labs-seriesa-anura-ai)"
+    },
+    {
+      "kind": "main",
+      "title": "5. Impossible Metals公布深海採礦機器人測試｜2026-11-09",
+      "body": "**事件與已查證資訊**：路透報導公司在9月太平洋科考、超過4,000公尺水深，以自主機器人取回約450克多金屬結核；11月9日對外公布。這是小規模測試，不是商業採礦。\n\n**技術原理／生活類比**：像用可辨識物件的水下夾爪挑取海底礦石，而不是整片海床抽吸。\n\n**融資、輪次、投資人**：公司表示2026年稍早A輪已完成，但金額未公開；媒體估算不能視為已確認融資額。\n\n**實證／TRL**：特定航次與採集量的公司測試敘述；無大規模環境影響及採收成本驗證。TRL：未判定。\n\n**競品**：The Metals Company及其他深海礦產開採方案。\n\n**商業模式**：礦產開採、選擇性採集技術授權或供應鏈合作。\n\n**商業化瓶頸**：國際海底管理局或美國監管批准、海洋生態、規模經濟與回收冶煉。\n\n**投資DD追問**：要求連續採集量、能耗/公斤、環境監測、核准路徑及礦石回收率。\n\n來源：[Reuters 2026-11-09: Impossible Metals seabed robot test](https://www.reuters.com/technology/impossible-metals-says-it-has-successfully-tested-ai-seabed-mining-robot-2026-11-09/)"
+    },
+    {
+      "kind": "main",
+      "title": "6. Windward Bio美國IPO募資1.75億美元｜2026-11-13",
+      "body": "**事件與已查證資訊**：路透報導瑞士抗體藥物公司Windward Bio在美國IPO以每股17美元發行約1,030萬股，募得1.75億美元；Novo Holdings為既有支持者。\n\n**技術原理／生活類比**：抗體如高度選擇性的鑰匙，辨識疾病相關分子並調節生物反應；公司研發聚焦嚴重呼吸與皮膚疾病。\n\n**融資、輪次、投資人**：IPO募資1.75億美元；非新創私募輪次；既有投資人含Novo Holdings。\n\n**實證／TRL**：募資價格及規模可核對；候選藥物療效、臨床分期與監管核准須另查。TRL不以IPO推定。\n\n**競品**：相關適應症既有生物製劑及其他抗體研發公司，需依實際標靶細分。\n\n**商業模式**：藥品上市後銷售、授權與里程碑付款。\n\n**商業化瓶頸**：臨床試驗失敗、療效差異化、專利、給付與資金跑道。\n\n**投資DD追問**：核對每項候選藥物的臨床註冊、主要終點、樣本數、現金跑道與專利到期。\n\n來源：[Reuters 2026-11-13: Windward Bio IPO](https://www.reuters.com/legal/transactional/novo-holdings-backed-windward-bio-raises-175-million-us-ipo-2026-11-13/)"
+    },
+    {
+      "kind": "main",
+      "title": "7. 企業AI Agent公司Rox募資1億美元｜2026-11-11",
+      "body": "**事件與已查證資訊**：路透報導Rox募資1億美元、估值13億美元，將擴張大型企業平台；本次報導未揭露輪次、投資人及客戶績效細節。\n\n**技術原理／生活類比**：AI Agent如能操作軟體的數位助理，不只回答問題，也可在授權下執行跨系統工作。\n\n**融資、輪次、投資人**：1億美元；輪次、投資人未揭露。\n\n**實證／TRL**：募資與估值已報導；付費留存率、任務成功率及實際節省工時未披露。TRL：未判定。\n\n**競品**：Salesforce Agentforce、Microsoft Copilot Studio及企業自建Agent。\n\n**商業模式**：企業SaaS、使用量及整合服務。\n\n**商業化瓶頸**：權限控管、幻覺與誤操作、系統整合、續約與毛利。\n\n**投資DD追問**：要求真實流程成功率、人工覆核成本、淨留存率與客戶資安稽核。\n\n來源：[Reuters 2026-11-11: Rox AI agent funding](https://www.reuters.com/business/automation-startup-rox-raises-100-million-13-billion-valuation-2026-11-11/)"
+    },
+    {
+      "kind": "main",
+      "title": "8. 以色列AI資安新創Bay獲5,000萬美元融資｜2026-11-10",
+      "body": "**事件與已查證資訊**：路透報導Bay獲5,000萬美元早期融資，稱已與數十家企業合作；報導未提供投資人、詳細產品及資金用途。\n\n**技術原理／生活類比**：AI資安可能透過模型識別異常與風險，但該公司的具體架構尚無足夠資料，不能代為推定。\n\n**融資、輪次、投資人**：5,000萬美元早期融資；輪次與投資人未揭露。\n\n**實證／TRL**：融資可核對；產品性能、營收、客戶付費狀態資料不足。TRL：未判定。\n\n**競品**：CrowdStrike、Palo Alto Networks及AI原生資安新創，具體競爭重疊未確認。\n\n**商業模式**：可能為企業資安軟體；未獲公司正式商業模式證據。\n\n**商業化瓶頸**：產品定位不透明、偽陽性、企業採購、差異化。\n\n**投資DD追問**：先要求產品規格、第三方測試、付費客戶及投資人資料，避免只憑募資額推估護城河。\n\n來源：[Reuters 2026-11-10: Bay AI security funding](https://www.reuters.com/technology/israeli-ai-security-startup-bay-raises-50-million-2026-11-10/)"
+    },
+    {
+      "kind": "main",
+      "title": "9. OpenAI收購AI旅遊新創Odessia｜2026-11-11",
+      "body": "**事件與已查證資訊**：華爾街日報報導OpenAI收購Odessia，交易金額未揭露；Odessia先前取得Sequoia領投600萬美元種子輪，原常駐旅遊助理服務已停止。\n\n**技術原理／生活類比**：旅遊Agent把查機票、飯店、行程與訂位串成可執行工作流，像把旅行社的多步操作交給軟體助理。\n\n**融資、輪次、投資人**：收購對價未揭露；歷史種子輪600萬美元，非本週新募資。\n\n**實證／TRL**：收購與服務停止已有報導；整合後產品時間表、協同效益未確認。TRL：未判定。\n\n**競品**：Booking、Expedia、Google Travel與各種旅遊Agent。\n\n**商業模式**：交易導流、訂閱、企業旅遊服務或平台整合，收購後實際模式待確認。\n\n**商業化瓶頸**：航空/旅館庫存API、交易責任、退款客服、獲客成本。\n\n**投資DD追問**：追問併購是人才、資料還是技術取得，與平台交易收入如何連結。\n\n來源：[WSJ 2026-11-11: OpenAI acquires Odessia](https://www.wsj.com/pro/venture-capital/openai-snaps-up-ai-travel-startup-odessia-908da138)"
+    },
+    {
+      "kind": "main",
+      "title": "10. 雙11零售AI助理進入大規模使用場景｜2026-11-11",
+      "body": "**事件與已查證資訊**：路透報導京東表示其AI購物助理用戶接近8,000萬；抖音AI聊天機器人連結帶來的10月購買占比約5%。這些是平台報告或市場觀察，不能直接推為AI帶來的增量GMV。\n\n**技術原理／生活類比**：購物Agent如懂得需求的店員，將搜尋、推薦、比價與下單流程串接。\n\n**融資、輪次、投資人**：非融資事件；無本週募資金額或投資人。\n\n**實證／TRL**：使用者及交易占比為平台披露；缺隨機對照實驗以分離AI推薦的增量效果。TRL：實際平台部署可確認，但不為整體技術定單一等級。\n\n**競品**：阿里巴巴、京東、拼多多、抖音等零售平台。\n\n**商業模式**：電商交易抽成、廣告、導購與商家服務。\n\n**商業化瓶頸**：推薦偏差、商家可見度、平台依賴、轉換率歸因與消費者信任。\n\n**投資DD追問**：要求A/B測試、淨增量轉換率、客單價、退貨率及品牌公平性。\n\n來源：[Reuters 2026-11-11: Singles Day AI commerce adoption](https://www.reuters.com/business/retail-consumer/chinas-singles-day-shopping-festival-puts-ai-selling-power-test-2026-11-11/)"
+    },
+    {
+      "kind": "dd",
+      "title": "跨領域投資觀察與DD優先級",
+      "body": "**觀察一：具身智慧的資本競賽正在從模型走向整機、現場部署與資料。** Agile Robots的大額融資不證明其機器人具備長期量產經濟性；需看已驗收付費部署數、稼動率與維保成本。\n\n**觀察二：量子公司與HPC供應商形成共同設計關係。** AMD與PsiQuantum合作可能縮短量子-傳統混合工作流的整合距離，但不等於容錯量子優勢已達成。\n\n**觀察三：AI Agent商業化分化。** Primordial偏國防人機介面、Rox偏企業流程、Odessia偏消費交易；比較時須用各自的任務完成率、責任分配、單位經濟與續約率，而非通用LLM benchmark。\n\n**觀察四：生技IPO與深海採礦反映不同風險型態。** Windward Bio主要面對臨床、法規及給付；Impossible Metals面對環境監管與採集成本。跨領域比較應以可否證的關鍵里程碑及資本需求，而非單一估值倍數。"
+    },
+    {
+      "kind": "technology",
+      "title": "技術名詞與原始證據缺口",
+      "body": "**量子-HPC混合運算**：以傳統CPU/GPU協調量子處理器，分工處理不同演算法；不代表量子運算已全面優於傳統電腦。\n\n**VLA/具身AI**：感知影像與指令後產生物理動作的模型，必須加上低階控制與安全監督。\n\n**AI Agent**：能在授權下使用工具完成多步工作流程的AI系統；任務完成率與人工覆核成本是商業化核心。\n\n**IPO**：首次公開發行，募資金額不等於研發項目已完成臨床或監管核准。\n\n**資料缺口**：本期部分事件只有可靠二手報導，尚未取得所有公司公告、完整交易契約、第三方測試報告、專利公開號與最新法律狀態；未提供可核對公開號時不虛構專利。"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "TRL",
+      "definition": "技術成熟度等級，須按特定產品及驗證環境有證據地判定。"
+    },
+    {
+      "term": "Series A",
+      "definition": "通常為早期成長募資，實際輪次依公司披露。"
+    },
+    {
+      "term": "Strategic Investment",
+      "definition": "策略性投資，可能包含商業合作，但不能假定有供貨或採購承諾。"
+    },
+    {
+      "term": "HPC",
+      "definition": "High-Performance Computing，高效能運算。"
+    },
+    {
+      "term": "AI Agent",
+      "definition": "能依目標使用工具與系統執行多步流程的AI。"
+    },
+    {
+      "term": "VLA",
+      "definition": "Vision-Language-Action，將視覺和語言映射成機器動作。"
+    },
+    {
+      "term": "GMV",
+      "definition": "Gross Merchandise Value，商品交易總額，不等於營收或利潤。"
+    },
+    {
+      "term": "FTO",
+      "definition": "Freedom to Operate，專利自由實施分析，不能由一般專利搜尋取代。"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Reuters 2026-11-12: SoftBank, Nvidia back Agile Robots",
+      "url": "https://www.reuters.com/business/media-telecom/softbank-nvidia-back-germanys-agile-robots-85-billion-valuation-2026-11-12/"
+    },
+    {
+      "title": "Reuters 2026-11-12: AMD to invest in PsiQuantum",
+      "url": "https://www.reuters.com/business/amd-invest-psiquantum-advance-quantum-computing-infrastructure-2026-11-12/"
+    },
+    {
+      "title": "Reuters 2026-11-10: TSMC to invest in Anthropic and OpenAI",
+      "url": "https://www.reuters.com/world/china/tsmc-invest-up-1-billion-anthropic-openai-2026-11-10/"
+    },
+    {
+      "title": "Axios 2026-11-10: Primordial Labs Series A",
+      "url": "https://www.axios.com/2026/11/10/primordial-labs-seriesa-anura-ai"
+    },
+    {
+      "title": "Reuters 2026-11-09: Impossible Metals seabed robot test",
+      "url": "https://www.reuters.com/technology/impossible-metals-says-it-has-successfully-tested-ai-seabed-mining-robot-2026-11-09/"
+    },
+    {
+      "title": "Reuters 2026-11-13: Windward Bio IPO",
+      "url": "https://www.reuters.com/legal/transactional/novo-holdings-backed-windward-bio-raises-175-million-us-ipo-2026-11-13/"
+    },
+    {
+      "title": "Reuters 2026-11-11: Rox AI agent funding",
+      "url": "https://www.reuters.com/business/automation-startup-rox-raises-100-million-13-billion-valuation-2026-11-11/"
+    },
+    {
+      "title": "Reuters 2026-11-10: Bay AI security funding",
+      "url": "https://www.reuters.com/technology/israeli-ai-security-startup-bay-raises-50-million-2026-11-10/"
+    },
+    {
+      "title": "WSJ 2026-11-11: OpenAI acquires Odessia",
+      "url": "https://www.wsj.com/pro/venture-capital/openai-snaps-up-ai-travel-startup-odessia-908da138"
+    },
+    {
+      "title": "Reuters 2026-11-11: Singles Day AI commerce adoption",
+      "url": "https://www.reuters.com/business/retail-consumer/chinas-singles-day-shopping-festival-puts-ai-selling-power-test-2026-11-11/"
+    },
+    {
+      "title": "NASA JPL 2026-11-07: Moon Base contracts (outside this week's window; background only)",
+      "url": "https://www.jpl.nasa.gov/news/nasa-awards-moon-base-transportation-technology-science-projects/"
+    }
+  ]
+}
