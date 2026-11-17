@@ -1,5 +1,24 @@
 [
   {
+    "id": "2026-11-17-semiconductor",
+    "date": "2026-11-17",
+    "stream": "semiconductor",
+    "title": "Chiplet開放平台、車用互通、HBM擴產與Hybrid Bonding專利：半導體技術週刊",
+    "summary": "11月10–16日聚焦imec NanoIC矽中介層PDK、imec/ASRA車用Chiplet ACIR、三星HBM封裝投資、SK海力士供應鏈驗證；以專利與工程參數分析量產風險。",
+    "tags": [
+      "Chiplet",
+      "Silicon Interposer",
+      "PDK",
+      "Hybrid Bonding",
+      "HBM",
+      "先進封裝",
+      "ACIR",
+      "良率",
+      "專利",
+      "供應鏈"
+    ]
+  },
+  {
     "id": "2026-11-16-venture",
     "date": "2026-11-16",
     "stream": "venture",
