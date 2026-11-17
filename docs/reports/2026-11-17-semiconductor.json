@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "id": "2026-11-17-semiconductor",
+    "date": "2026-11-17",
+    "stream": "semiconductor",
+    "title": "Chiplet開放平台、車用互通、HBM擴產與Hybrid Bonding專利：半導體技術週刊",
+    "summary": "11月10–16日聚焦imec NanoIC矽中介層PDK、imec/ASRA車用Chiplet ACIR、三星HBM封裝投資、SK海力士供應鏈驗證；以專利與工程參數分析量產風險。",
+    "tags": [
+      "Chiplet",
+      "Silicon Interposer",
+      "PDK",
+      "Hybrid Bonding",
+      "HBM",
+      "先進封裝",
+      "ACIR",
+      "良率",
+      "專利",
+      "供應鏈"
+    ]
+  },
+  "sections": [
+    {
+      "kind": "main",
+      "title": "本週摘要與證據邊界（2026-11-10至11-16）",
+      "body": "本期優先選擇有明確日期與可核對原始來源的四項變化。① 11/10 imec NanoIC公布矽中介層baseline flow，微凸塊pitch支援至20 µm，目標2027年初釋出PDK；② 11/12 imec與日本ASRA公布車用Chiplet互通架構要求ACIR；③ 11/12三星HBM封裝廠投資與2028年6月投產規劃獲報導；④ 11/16 SK海力士宣布五年1.4兆韓元供應鏈支持及測試設施。另追蹤Hybrid Bonding專利及High-NA EUV既有進度作技術背景，不冒充本週發表。『baseline flow』不等於量產合格，『規格文件』不等於跨廠互通已實測，『投資宣布』不等於產能已交付。"
+    },
+    {
+      "kind": "technology",
+      "title": "議題一｜imec NanoIC矽中介層：讓新創更容易設計Chiplet（11/10）",
+      "body": "生活類比：矽中介層像城市的高密度轉運站，讓運算晶粒、HBM等不同功能的『大樓』用短距離高速道路互連。imec公布NanoIC矽中介層baseline製程流程，包括TSV、多層金屬布線及最低20 µm microbump pitch；預計2027年初提供相應PDK，與已有的細線寬RDL中介層及die-to-wafer hybrid bonding PDK形成互補。這是設計與試作基礎建設，並非已量產晶片。DD應查：TSV良率、RDL線寬線距、翹曲、熱管理、interposer面積、測試可達性、EDA工具相容、設計到試產費用。競爭/替代路線包含台積電CoWoS類矽中介層方案、RDL中介層及有機基板；比較時應用相同晶粒數、帶寬、封裝尺寸與成本假設。來源：imec 2026-11-10。"
+    },
+    {
+      "kind": "technology",
+      "title": "議題二｜車用Chiplet ACIR：規格互通比物理接線更難（11/12）",
+      "body": "生活類比：即使兩台電腦插頭相同，若開機、錯誤回報和安全協定不同，仍不能組成可靠系統。imec與日本ASRA發布ACIR（Automotive Chiplet Interoperability Requirement），對多供應商車用Chiplet提出啟動順序、電源管理、錯誤與系統管理、功能安全及互通要求；為既有標準補充架構需求，而非宣告通過車規認證。DD應要求：實際多廠chiplet互通測試、UCIe/PHY相容性、故障注入、ASIL安全案例、長期供貨與版本相容、熱循環可靠度。台灣EDA、IP、封測、車用供應鏈可能受益，但需有客戶導入證據才能推論營收。來源：imec/ASRA 2026-11-12，ACIR官方文件可於acir.imec-int.com取得。"
+    },
+    {
+      "kind": "technology",
+      "title": "議題三｜三星HBM封裝廠與SK海力士供應鏈投入（11/12、11/16）",
+      "body": "路透11/12報導三星於韓國牙山的HBM封裝廠投資約6兆韓元，另預期帶動約40兆韓元先進設備投資，產線計畫2028年6月營運；這是規劃及預期，不是已完成產能。路透11/16報導SK海力士計畫五年投資1.4兆韓元支持韓國材料/零件/設備供應商，並規劃在龍仁約8,746億韓元測試設施，協助供應商在接近量產條件下驗證。兩項動態共同指向HBM瓶頸從DRAM晶片延伸到堆疊、封裝、材料、設備與驗證。DD指標：HBM堆疊層數、熱阻、microbump/hybrid bonding pitch、單堆疊良率、測試覆蓋率、設備throughput、良率爬坡、客戶qualification週期。不能由投資額直接換算有效產能。"
+    },
+    {
+      "kind": "technology",
+      "title": "議題四｜Hybrid Bonding與High-NA EUV：新週消息背後的工程瓶頸",
+      "body": "Hybrid bonding是讓兩塊積木不靠凸起焊錫，而讓介電層與銅焊盤同時貼合。相較microbump，潛力是更細pitch、更短互連及較低功耗；量產門檻包括CMP平坦度、銅凹陷、微粒、表面活化、對位精度、晶粒翹曲、熱預算與介面空洞。公開的Applied Materials/Besi Kinex屬既有設備背景，不能把過去產品發布算作本週新品。High-NA EUV則是以更大數值孔徑提高微影解析度，但增加設備成本、光罩尺寸與曝光場限制；ASML與台積電9月提出12吋光罩長期倡議、Intel與ASML9月披露High-NA既有量產里程碑，均非本週新聞。本期未核實11/10–16有新GAA/CFET/BSPDN或ALD/CVD突破，故不以舊聞填補。"
+    },
+    {
+      "kind": "dd",
+      "title": "競品與專利動態：公開號、請求項及法律限制",
+      "body": "本週找到可供DD閱讀的既有公開專利，**不是本週新公開專利**：\n1. EP4771677A1（Applied Materials，2026-07-08公開）：高強度介電材料用於Hybrid Bonding，可能的請求項議題是介電層組成/介電常數、金屬接點pitch及鍵合結構。\n2. US12674244B2（Applied Materials，2026-07-07授權）：低溫混合鍵合金屬化，可能涉及奈米雙晶銅與bulk copper的層狀結構、電鍍與TSV條件。\n3. US20240266303A1（已另有授權版本）：Chiplet interposer，可能涉及中介層、重分佈結構、封裝材料與晶粒配置。\n專利摘要與資料庫法律狀態僅供初篩，需查原文請求項、專利家族、有效地區、審查歷程、是否存續與產品實施要件；不可當成正式FTO意見，也不能因同領域專利存在就認定侵權。"
+    },
+    {
+      "kind": "dd",
+      "title": "台灣供應鏈、CAPEX與投資DD Checklist",
+      "body": "台灣相關價值鏈可按職能而非未證實訂單辨識：晶圓代工/先進封裝（台積電）、封裝與測試（ASE/矽品等）、封裝基板、材料、濕製程、檢測、EDA/IP。全球設備競爭包括Applied Materials/Besi、EV Group、ASMPT及相關量測供應商；具體競爭地位要按設備規格與實際客戶驗收查證。核心DD：①新平台有PDK、MPW、測試晶片還是量產證據？②microbump/hybrid bonding的對位、pitch、良率、cycle time、wafer/die throughput？③缺陷密度與CMP、清洗、檢測成本？④封裝熱與可靠度（thermal cycling、electromigration）？⑤設備CAPEX、折舊、耗材、維修與總持有成本？⑥車用功能安全/可追溯性與客戶認證？⑦專利家族、授權、資料/PDK使用權與FTO？沒有公開數字則標資料不足。"
+    },
+    {
+      "kind": "dd",
+      "title": "可歸檔公開研究素材與測驗",
+      "body": "可保存：imec 11/10 NanoIC矽中介層官方公告（20 µm與2027 PDK時程）；imec/ASRA 11/12 ACIR官方公告及公開規格；路透11/12三星HBM封裝投資、11/16 SK海力士測試設施；Semiconductor Engineering Hybrid Bonding Knowledge Center；EP4771677A1、US12674244B2、US20240266303A1公開專利。未讀取授權內部案件索引，故不將這些素材連結至任何特定科研個案。\n\n測驗：1. PDK與量產合格的差別？2. 為何車用Chiplet僅有實體互連還不夠？3. Hybrid bonding最重要的三個製程風險？4. 20 µm是imec NanoIC公布的哪項參數？5. 專利公開號能否直接證明侵權？\n解答：1.PDK支援設計/驗證，量產仍需良率、可靠度與客戶驗收；2.需電源、開機、錯誤、安全等系統互通；3.如CMP平坦度、顆粒、對位與銅凹陷（任三）；4.microbump pitch下限；5.不能，須比對有效請求項、產品與法域。"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Chiplet",
+      "definition": "把不同功能的晶粒分開製造，再於封裝中互連。"
+    },
+    {
+      "term": "Silicon Interposer",
+      "definition": "矽中介層，晶粒間高密度布線與連接平台。"
+    },
+    {
+      "term": "TSV",
+      "definition": "Through-Silicon Via，穿矽通孔。"
+    },
+    {
+      "term": "PDK",
+      "definition": "Process Design Kit，供設計者使用的製程設計規則、模型與驗證資料。"
+    },
+    {
+      "term": "RDL",
+      "definition": "Redistribution Layer，重分佈金屬布線層。"
+    },
+    {
+      "term": "Hybrid Bonding",
+      "definition": "介電層與金屬接點同時直接鍵合的3D互連技術。"
+    },
+    {
+      "term": "HBM",
+      "definition": "High Bandwidth Memory，高頻寬堆疊記憶體。"
+    },
+    {
+      "term": "ACIR",
+      "definition": "Automotive Chiplet Interoperability Requirement，車用Chiplet互通架構要求。"
+    },
+    {
+      "term": "CMP",
+      "definition": "Chemical Mechanical Planarization，化學機械平坦化。"
+    },
+    {
+      "term": "FTO",
+      "definition": "Freedom to Operate，產品實施的專利自由實施分析。"
+    }
+  ],
+  "sources": [
+    {
+      "title": "imec NanoIC silicon interposer baseline flows, 2026-11-10",
+      "url": "https://www.imec-int.com/en/press/imec-advances-europes-silicon-interposer-technology-capabilities-through-nanoic-pilot-line"
+    },
+    {
+      "title": "imec/ASRA Automotive Chiplet Interoperability Requirement, 2026-11-12",
+      "url": "https://www.imec-int.com/en/press/asra-and-imec-release-joint-architectural-requirements-interoperable-automotive-chiplets"
+    },
+    {
+      "title": "ACIR specification portal",
+      "url": "https://acir.imec-int.com/"
+    },
+    {
+      "title": "Reuters Samsung HBM packaging plant, 2026-11-12",
+      "url": "https://www.reuters.com/world/asia-pacific/south-koreas-lee-says-samsung-chip-packaging-expansion-spur-30-billion-2026-11-12/"
+    },
+    {
+      "title": "Reuters SK Hynix suppliers support, 2026-11-16",
+      "url": "https://www.reuters.com/world/asia-pacific/sk-hynix-spend-1-billion-over-five-years-support-chip-suppliers-2026-11-16/"
+    },
+    {
+      "title": "Semiconductor Engineering Hybrid Bonding Knowledge Center",
+      "url": "https://semiengineering.com/knowledge_centers/packaging/advanced-packaging/hybrid-bonding/"
+    },
+    {
+      "title": "EP4771677A1 Applied Materials hybrid bonding dielectric",
+      "url": "https://patents.google.com/patent/EP4771677A1/en"
+    },
+    {
+      "title": "US12674244B2 Applied Materials low temperature bonding metallization",
+      "url": "https://patents.google.com/patent/US12674244B2/en"
+    },
+    {
+      "title": "US20240266303A1 chiplet interposer",
+      "url": "https://patents.google.com/patent/US20240266303A1/en"
+    },
+    {
+      "title": "ASML and TSMC High-NA mask initiative (historical background, 2026-09-08)",
+      "url": "https://investor.asml.com/news-releases/news-release-details/asml-and-tsmc-announce-initiative-pioneer-industry-transition-large-format-photomasks-high-na-euv"
+    }
+  ]
+}
