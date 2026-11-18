@@ -1,0 +1,137 @@
+{
+  "metadata": {
+    "id": "2026-11-18-policy",
+    "date": "2026-11-18",
+    "stream": "policy",
+    "title": "11/18 科研政策與醫材商業化：國科會產學新徵案、FITI與五關卡DD",
+    "summary": "11/13國科會116年第1期產學合作計畫開放至2027/1/13；FITI 2027-1於12/30中午截止、11/19說明會。醫材聚焦TFDA/FDA及健保/CMS的上市、編碼、給付證據界線。",
+    "tags": [
+      "國科會",
+      "產學合作",
+      "FITI",
+      "科研創業",
+      "SBIR",
+      "TFDA",
+      "FDA",
+      "PCCP",
+      "健保給付",
+      "醫材DD"
+    ]
+  },
+  "sections": [
+    {
+      "kind": "main",
+      "title": "本週摘要｜11月11日至17日官方查核",
+      "body": "**新公告（已查證）**：國科會產學及園區業務處於2026-11-13公告「116年度第1期產學合作研究計畫」，申請期間2026-11-13至2027-01-13。合作企業一般須提供不低於當年總經費25%且至少25萬元配合款；人文領域為20%且至少20萬元。多年期最多3年、分年核定，計畫自2027-06-01起執行。補助額度依審查核給，公告未列統一上限。\n\n**持續開放、非本週新公告**：FITI 2027年度第一梯次於2026-12-30 12:00截止，11/19 10:00–12:00有線上說明會；符合資格的學研團隊可爭取評選後100萬元創業種子資金，非報名即給付。國科會116年度科研創業計畫前次徵件公告為2026-07-21，不可視為本週新徵案。\n\n**醫材監測**：本週查核FDA CDRH公告頁，最新可明確核對項目為11/10分類／安全警示，尚未確認11/11–17發布足以改變全部SaMD、PCCP、510(k)或De Novo路徑的新通用指引。未取得TFDA/NHI/CMS本週新給付政策完整版本差異證據，不宣稱規則改變。"
+    },
+    {
+      "kind": "main",
+      "title": "一、科研政策與補助期限（依日期）",
+      "body": "|項目|公告／徵件|資格與金額|文件及行動|\n|---|---|---|---|\n|2027 FITI 第1梯次|已開放，2026-12-30 12:00（台灣時間）截止；11/19 10:00–12:00線上說明會|學研在校生、畢業一年內畢業生或專職研究人員占團隊至少50%；傑出團隊可獲100萬元種子資金|查最新簡章、報名表與商業構想；先參加說明會確認規則|\n|國科會116年第1期產學合作研究|2026-11-13新公告；2027-01-13截止，精確時刻未見公告；申請機構函送名冊及切結書|公私立大學、符合資格研究機構申請；企業配合款一般至少總經費25%且至少25萬元，人文20%且至少20萬元；補助依審查|準備計畫書、合作企業資格、配合款與合作安排、申請名冊／切結書；人體／動物等研究需倫理審查文件|\n|國科會臺斯PPP研究互訪|2026-10-01至12-02，非本週新公告|臺斯雙邊研究人員合作，金額及細節依公告|確認雙邊合作人選與申請資格|\n|國科會前瞻研究驅動設備研發|2026-11-04至12-28，非本週新公告|國內學研團隊研製半導體關鍵研究設備，額度待核|先依構想書階段要求準備；細節以公告附件為準|\n\n**未核實**：本次未取得TTA、經濟部科研成果商業化與中央SBIR在11/11–17的新正式徵案、金額或截止時間證據；不能將舊徵件或地方SBIR已截止資訊列為新機會。不同計畫機構內部收件時間可能早於主管機關截止日，需向研發處確認。"
+    },
+    {
+      "kind": "technology",
+      "title": "二、醫療器材商業化：五關卡不可混為一談",
+      "body": "**上市許可（regulatory authorization）→ 編碼（coding）→ 保險給付範圍（coverage）→ 支付額（payment）→ 醫院採用（adoption）**，每一關都需要獨立官方或交易證據。生活類比：產品拿到上路許可，不代表已被列入保險理賠項目；有理賠項目，也不代表每家醫院會採購。\n\n台灣優先查：TFDA醫療器材分類、查驗登記／登錄、許可證及核准適應症；健保署醫療服務給付項目及支付標準、特殊材料給付規定、醫令／特材代碼、支付點數及生效日期。美國對照：FDA 510(k)、De Novo或PMA僅處理上市監管；CPT/HCPCS/ICD等編碼及CMS Medicare coverage/payment各需另查。\n\n**本期沒有針對特定產品取得完整TFDA許可證、健保代碼與給付決定，故不列任何個案為已給付。**"
+    },
+    {
+      "kind": "technology",
+      "title": "AI/ML SaMD、PCCP與臨床證據",
+      "body": "FDA PCCP允許在原始上市申請中提出有邊界的預定變更、驗證方法及影響評估；經FDA授權且在核准範圍內實施的修改，可能不必每次另送新的上市申請。這**不是**所有AI模型可無限制自動更新的通行證。FDA的AI PCCP正式指引已於2025-08發布，本期不把既有規則稱為本週新制。\n\nDD需要求：原始核准產品與預期用途、適應症及使用族群；PCCP是否真的被個別授權；更新前後資料分布、模型版本、預定變更界線、漂移監測與回滾機制。臨床驗證需查研究設計、樣本數、對照組、敏感度／特異度或預定主要終點、外部場域驗證與亞群表現。FDA 2025-12的醫材RWE正式指引取代2017版本，是既有背景，不是11/11–17新公告。"
+    },
+    {
+      "kind": "dd",
+      "title": "醫材投資DD：競品、商業模式與採用風險",
+      "body": "競品需同時包含既有醫師工作流程、傳統影像／檢驗設備、其他AI SaMD及人工判讀；比較時應使用相同適應症與臨床終點。商業模式可能為醫院軟體授權、每例分析費、設備搭售或醫療服務支付，但不得將「有FDA許可」推論為「有CPT碼、Medicare給付或醫院採購」。\n\n審查會議最重要的五問：1. 實際上市許可與適應症的官方證據在哪？2. 對應的台灣醫令／特材或美國編碼是什麼，誰持有？3. 哪一份NHI/CMS文件載明coverage、支付額、條件與生效日？4. 臨床證據是否外部驗證，能否證明相較現行流程的增量效益？5. 付費決策者、採購流程、資訊安全與維護成本為何？"
+    },
+    {
+      "kind": "dd",
+      "title": "本期資料缺口與版本證據規則",
+      "body": "11/13國科會產學合作公告為本週新增徵案，但沒有取得2026年上一期同類徵案的完整條文對照，故不宣稱配合款比例或申請流程『本週修法』。FITI頁面有本梯次活動與截止日，但未核實公告首次發布日；列為持續開放，不認定本週新發布。TFDA標準採認清單2026-08-03公告，屬既有背景，不算本週法規變動。\n\n本網站僅包含公開資訊，不包含任何個人案件、內部資料、雲端硬碟、郵件、行事曆或私人待辦。"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "FITI",
+      "definition": "創新創業激勵計畫，提供學研團隊培訓與競賽式種子資金機會。"
+    },
+    {
+      "term": "SaMD",
+      "definition": "Software as a Medical Device，軟體本身具有醫療器材用途。"
+    },
+    {
+      "term": "PCCP",
+      "definition": "Predetermined Change Control Plan，上市申請中經主管機關授權的預定變更控制計畫。"
+    },
+    {
+      "term": "510(k)",
+      "definition": "美國醫療器材上市前通知途徑，核心涉及與合法上市比較器材的實質等同性。"
+    },
+    {
+      "term": "De Novo",
+      "definition": "美國對無適用比較器材的部分低至中風險新型器材之分類途徑。"
+    },
+    {
+      "term": "Coding",
+      "definition": "醫療服務或器材的識別／申報代碼，不代表保險一定給付。"
+    },
+    {
+      "term": "Coverage",
+      "definition": "保險是否在特定條件、族群及適應症下承保。"
+    },
+    {
+      "term": "Payment",
+      "definition": "實際支付額、支付方法或費率，與上市許可及編碼不同。"
+    },
+    {
+      "term": "RWE",
+      "definition": "Real-World Evidence，從真實世界資料經適當方法產生的臨床證據。"
+    }
+  ],
+  "sources": [
+    {
+      "title": "國科會：116年度第1期產學合作研究計畫徵求公告（2026-11-13）",
+      "url": "https://www.nstc.gov.tw/spu/ch/detail/e1978126-92a7-4e3f-a832-1c9d70f30427"
+    },
+    {
+      "title": "國科會：計畫徵求專區（查核2026-11-18）",
+      "url": "https://www.nstc.gov.tw/folksonomy/rfpList"
+    },
+    {
+      "title": "國科會：產學及園區業務處公告列表（查核2026-11-18）",
+      "url": "https://www.nstc.gov.tw/spu/ch"
+    },
+    {
+      "title": "FITI：2027年度第一梯次徵選、11/19說明會與12/30截止（查核2026-11-18）",
+      "url": "https://fiti.stpi.niar.org.tw/global/88797b8ea7854f8b96b550f18a8b84b3"
+    },
+    {
+      "title": "FITI：2027-1團隊資格與說明會（查核2026-11-18）",
+      "url": "https://fiti.stpi.niar.org.tw/global/22264cce5d6445e2aecdbbed606574b5"
+    },
+    {
+      "title": "FDA CDRH：News and Updates（查核2026-11-18）",
+      "url": "https://www.fda.gov/medical-devices/medical-devices-news-and-events/cdrh-new-news-and-updates"
+    },
+    {
+      "title": "FDA：Predetermined Change Control Plans（頁面更新2026-10-20）",
+      "url": "https://www.fda.gov/medical-devices/premarket-submissions-selecting-and-preparing-correct-submission/predetermined-change-control-plans"
+    },
+    {
+      "title": "FDA：PCCP for ML-enabled Medical Devices guiding principles（查核2026-11-18）",
+      "url": "https://www.fda.gov/medical-devices/artificial-intelligence-enabled-medical-devices/predetermined-change-control-plans-machine-learning-enabled-medical-devices-guiding-principles"
+    },
+    {
+      "title": "FDA：RWE for medical devices final guidance town hall（2026-02-18）",
+      "url": "https://www.fda.gov/medical-devices/medical-devices-news-and-events/town-hall-use-real-world-evidence-support-regulatory-decision-making-medical-devices-final-guidance"
+    },
+    {
+      "title": "TFDA：115年度醫療器材標準採認清單（2026-08-03）",
+      "url": "https://www.fda.gov.tw/tc/siteListContent.aspx?id=51410&sid=11652"
+    },
+    {
+      "title": "台灣健保署：官方入口（個別給付仍需逐項核對）",
+      "url": "https://www.nhi.gov.tw/"
+    }
+  ]
+}
