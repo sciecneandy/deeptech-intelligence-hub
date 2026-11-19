@@ -1,0 +1,128 @@
+{
+  "metadata": {
+    "id": "2026-11-19-dd",
+    "date": "2026-11-19",
+    "stream": "dd",
+    "title": "全固態鋰金屬電池：低壓循環突破、界面工程與量產 Pre-DD",
+    "summary": "以QuantumScape 11/11 Osprey公開主張為切入，拆解全固態電池的固固界面、壓力、枝晶、能量密度與量產驗證，建立可複用的投資DD及Killer Experiments。",
+    "tags": [
+      "全固態電池",
+      "鋰金屬",
+      "QuantumScape",
+      "Osprey",
+      "界面工程",
+      "量產",
+      "技術DD",
+      "Pre-DD"
+    ]
+  },
+  "sections": [
+    {
+      "kind": "main",
+      "title": "本期一頁式摘要：低壓循環主張值得驗證，尚非量產證據",
+      "body": "**刊期2026-11-19，重點查核11/12–11/18，並以11/11重大技術公告作本期技術切入。**\n\n**已查證公告**：QuantumScape於2026-11-11推出Osprey全固態開放平台，宣稱以硫化物正極、陶瓷隔膜、無負極鋰金屬設計，在約1大氣壓外部壓力下達成1,000次循環；公司提出授權與共同開發模式。這是公司公布的性能主張，尚未從該公告取得可獨立比較的完整測試條件、第三方驗證、電池包可靠度與量產良率，不能視為量產達標。公告日期在本期七日窗之前一天，不應偽稱為本週新公告。\n\n**核心投資判斷**：全固態電池的決勝點不是單獨追求最高能量密度，而是同時滿足低外部壓力、面積容量、循環壽命、充電速度、可製造性、安全與成本。只看1,000次循環而不知道容量保持率、溫度、C-rate、電池尺寸與夾具壓力，證據仍不足。\n\n**比較基準**：Toyota/Idemitsu著重硫化物固態電解質供應鏈與2027–2028年量產目標（歷史規劃，非實際交付）；Factorial/Mitsui Kinzoku於2026-09宣布硫化物材料與量產合作；QuantumScape於2026-10公告規劃100MWh產線，均屬各公司不同階段的商業化路線，不能直接推論已達同一TRL。"
+    },
+    {
+      "kind": "technology",
+      "title": "從零理解：全固態鋰金屬電池如何運作",
+      "body": "生活類比：傳統鋰電池的鋰離子像在液體泳池裡游泳；全固態電池把泳池換成固體走廊。鋰離子仍須從正極經電解質往負極移動，電子則經外部電路做功。固體走廊可能降低部分可燃液態電解液風險，但走廊與兩端牆壁若接觸不良，就會出現阻抗、局部電流集中與裂縫。\n\n系統：正極活性材料＋固態電解質複合正極 → 固態電解質／隔膜 → 鋰金屬負極或無負極集流體；外部再加集流體、封裝、壓力管理、BMS與熱管理。無負極(anode-free)是組裝時沒有預先配置鋰金屬負極，首次充電時鋰沉積在集流體上，不代表沒有負極反應。\n\n固態電解質路線：硫化物（離子導電性潛力高，水分敏感與界面問題）、氧化物（化學／機械特性不同，陶瓷加工及接觸困難）、聚合物（可加工性較好，室溫導電率與工作條件可能受限）。不能把半固態、凝膠、固液混合與全固態混為一談。"
+    },
+    {
+      "kind": "technology",
+      "title": "四大失效機制與性能量測",
+      "body": "1. 固固界面：兩個硬物表面並非完全貼合，形成接觸阻抗與局部熱點。2. 枝晶與鋰絲：不均勻沉積可能造成短路，固體隔膜不保證完全阻止。3. 電化學與機械耦合：充放電膨脹、應力與裂縫造成容量衰退。4. 製造缺陷：陶瓷孔洞、厚度偏差、含水污染、顆粒與層壓良率。\n\n必報性能指標及條件：單層／多層電芯、Ah容量、Wh/kg（cell與pack分開）、Wh/L、正極面積容量mAh/cm²、固態電解質厚度µm、外部堆疊壓力MPa或atm、測試溫度°C、充放電C-rate、循環次數與容量保持率%、首次及平均庫倫效率%、內阻、倍率性能、樣本數與失效分布。1atm約0.101MPa，需核實是外部夾持壓力、絕對壓力還是其他測試定義。\n\nTRL需以特定配方＋電芯尺寸＋工藝＋使用情境判定。公司宣布100MWh產線規劃不等於已達工業量產TRL；本期缺乏可獨立核對的完整製程與客戶驗收證據，不給單一TRL數字。"
+    },
+    {
+      "kind": "technology",
+      "title": "競品、學術證據與原始研究",
+      "body": "**QuantumScape**：2026-11-11 Osprey平台，低壓硫化物正極循環為公司主張；2026-10-21公告規劃100MWh產線並與Muehlbauer合作設備。**Toyota＋Idemitsu**：2023官方提出2027–2028車用全固態量產目標；屬歷史規劃，需核實實際進度。**Factorial＋Mitsui Kinzoku**：2026-09-17公告共同開發與硫化物材料供應鏈，屬合作與規模化路徑，不等於量產驗收。\n\n**學術交叉驗證**：2026年eScience綜述指出鋰自擴散與界面不均勻可驅動枝晶；Nature Reviews Materials 2024綜述說明外部壓力與電化學耦合；2026年Energy & Environmental Science透過界面表徵綜述指出埋藏界面難以直接觀測。這些研究支持問題確實存在，但不獨立證實任一公司公布的具體循環性能。\n\n**專利查核方法**：先從公開專利資料庫搜尋固態電解質組成、陶瓷隔膜、無負極電芯、硫化物正極、壓力管理及乾式製程；逐件記錄公開號、專利家族、有效請求項、地域及法律狀態。未完成具體專利逐項核對，不編造公開號或宣稱FTO。"
+    },
+    {
+      "kind": "dd",
+      "title": "價值鏈、商業模式與量產瓶頸",
+      "body": "價值鏈：鋰鹽與硫化物／氧化物前驅物 → 固態電解質粉體與陶瓷薄層 → 正負極材料／集流體 → 塗佈、壓延、層壓、乾燥及密封 → 化成分容／檢測 → 電池模組／BMS／車廠或航太客戶驗證。\n\n商業模式：材料供應、隔膜IP授權、電芯製造、共同開發與設備整合；QuantumScape Osprey提出授權／共同開發，需核對授權收入、客戶承諾、資本支出責任與獨家條款。\n\n量產瓶頸：硫化物水分控制及可能的H₂S風險、粉體批次一致性、固態電解質薄層缺陷、陶瓷破裂、良率、產線節拍、壓力管理與熱循環、報廢與回收、車規驗證及成本。電池安全須按用途核對UN 38.3、IEC 62660、UL 2580或其他適用規範；標準適用性不等於已獲認證。\n\n投資風險：與成熟LFP/NMC液態電芯相比的增量價值是否足以支付材料、設備、良率與認證成本；不能只用實驗室材料成本估算電芯或pack毛利。"
+    },
+    {
+      "kind": "dd",
+      "title": "P.1–P.8 Pre-DD可複用查核模板",
+      "body": "P.1 應用痛點：EV、航太、無人機或資料中心，需求與現有LFP/NMC基準。P.2 技術架構：電解質配方、負極、正極、電芯結構、製程與外部壓力。P.3 技術證據矩陣：提案主張／原始測試／第三方文獻或專利支持／測試條件／來源／不足。P.4 IP：配方、界面、設備、專利請求項、合作授權及FTO。P.5 競品：同尺寸同條件比較能量密度、壽命、安全與成本。P.6 BD：客戶樣品、付費驗證、qualification、採購意向與供應鏈。P.7 財務：BOM、材料單耗、CAPEX、節拍、良率、折舊、現金跑道。P.8 里程碑：從單層小電芯、多層大容量、客戶驗收、試量產到量產的可否證關卡。\n\n建議風險燈號：紅＝只提供單顆最佳曲線、無測試條件或無安全方案；黃＝多顆測試但無獨立驗證與量產良率；綠＝第三方依預註冊條件重現、具批次統計與客戶驗收。此燈號為通用方法，不是對公司或內部案件的評級。"
+    },
+    {
+      "kind": "dd",
+      "title": "Killer Experiments、審查追問與下週準備",
+      "body": "實驗A：在固定壓力（例如公司聲稱的1atm）與明確溫度、C-rate、面積容量條件下，至少多批次多電芯完整記錄循環與失效分布；樣本數由統計功效設計決定。實驗B：比較不同壓力下的接觸阻抗、枝晶／短路、容量保持率與夾具成本。實驗C：在實際尺寸多層電芯驗證熱循環、振動、快充與安全；實驗D：試產追蹤材料收率、節拍、良率、報廢與每kWh完全成本。所有門檻須先與目標客戶協議，不將示例條件當成產業標準。\n\n下次會議追問：完整測試protocol與原始曲線？是否第三方？電芯面積與Ah？壓力施加方法？有無失敗樣本？循環終點與容量保持率？陶瓷／硫化物原料供應商與含水規範？IP權利鏈？單位經濟敏感度？客戶實際驗收階段？\n\n下週通用工作：建立主張—證據矩陣、取得第三方驗證方案、整理專利公開號與請求項、確認客戶驗收規格、做三種良率情境成本敏感度。未實際讀取完整授權年度總索引、特定個案原始提案及論文專利，故不推定任何團隊的進度、缺件或會議，也不產出正式個案Pre-DD。"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "ASSB",
+      "definition": "All-Solid-State Battery，全固態電池，電解質主要以固體構成。"
+    },
+    {
+      "term": "Anode-free",
+      "definition": "組裝時不預置鋰金屬負極，充電時在集流體上沉積鋰。"
+    },
+    {
+      "term": "Stack pressure",
+      "definition": "電芯運作時對堆疊結構施加的外部壓力，需標明測試定義。"
+    },
+    {
+      "term": "Dendrite",
+      "definition": "不均勻鋰沉積形成的枝晶或鋰絲，可能引發短路。"
+    },
+    {
+      "term": "Areal capacity",
+      "definition": "每單位電極面積的電容量，常用mAh/cm²。"
+    },
+    {
+      "term": "C-rate",
+      "definition": "相對於額定容量的充放電倍率，影響循環結果。"
+    },
+    {
+      "term": "Coulombic efficiency",
+      "definition": "放電與充電電量的比例，反映副反應及不可逆損失。"
+    },
+    {
+      "term": "Killer Experiment",
+      "definition": "可在明確測試條件下快速否證核心技術或商業假設的關鍵實驗。"
+    },
+    {
+      "term": "FTO",
+      "definition": "專利自由實施分析，需依有效請求項與法域進行。"
+    }
+  ],
+  "sources": [
+    {
+      "title": "QuantumScape, Osprey all-solid-state platform, 2026-11-11",
+      "url": "https://www.quantumscape.com/quantumscape-expands-commercial-roadmap-with-osprey-the-open-all-solid-state-platform-for-battery-development/"
+    },
+    {
+      "title": "QuantumScape, 100 MWh line plan, 2026-10-21",
+      "url": "https://www.quantumscape.com/quantumscape-announces-plans-for-100-mwh-solid-state-battery-production-line-for-ai-data-centers-aerospace-and-defense/"
+    },
+    {
+      "title": "Factorial and Mitsui Kinzoku collaboration, 2026-09-17",
+      "url": "https://factorialenergy.gcs-web.com/news-releases/news-release-details/mitsui-kinzoku-partners-factorial-scale-all-solid-state-battery"
+    },
+    {
+      "title": "Toyota and Idemitsu, ASSB cooperation and targets, 2023",
+      "url": "https://global.toyota/en/newsroom/corporate/39865919.html"
+    },
+    {
+      "title": "eScience, A microscopic view of diffusion and failure mechanisms of lithium anodes in solid-state batteries, 2026",
+      "url": "https://doi.org/10.1016/j.esci.2026.100589"
+    },
+    {
+      "title": "Nature Reviews Materials, External-pressure–electrochemistry coupling in solid-state lithium metal batteries, 2024",
+      "url": "https://www.nature.com/articles/s41578-024-00669-y"
+    },
+    {
+      "title": "Energy & Environmental Science, Interfacial characterization in solid-state lithium metal batteries, 2026",
+      "url": "https://pubs.rsc.org/en/content/articlelanding/2026/ee/d5ee05519a"
+    },
+    {
+      "title": "Nanoscale Advances, Review of interface optimization strategies, 2025",
+      "url": "https://pubs.rsc.org/en/content/articlehtml/2025/na/d5na00286a"
+    }
+  ]
+}
