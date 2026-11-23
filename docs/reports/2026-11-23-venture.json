@@ -1,0 +1,122 @@
+{
+  "metadata": {
+    "id": "2026-11-23-venture",
+    "date": "2026-11-23",
+    "stream": "venture",
+    "title": "AI製藥50億美元、機器人5億美元與太空運算：DeepTech十大投資情報",
+    "summary": "11/16–11/22十項可查證募資與合作，聚焦AI製藥、機器人、神經醫材、金融Agent、太空與合成生物；區分公司宣稱、實證與投資DD缺口。",
+    "tags": [
+      "DeepTech",
+      "創投",
+      "AI製藥",
+      "機器人",
+      "神經醫材",
+      "太空運算",
+      "合成生物",
+      "AI Agent",
+      "投資DD"
+    ]
+  },
+  "sections": [
+    {
+      "kind": "main",
+      "title": "一頁式投資摘要與證據界線",
+      "body": "追蹤期間2026/11/16–11/22。三大訊號：AI藥物設計出現US$5B單筆大型融資；通用機器人開始由模型展示轉向整機、資料與客戶部署的全棧競爭；太空運算、DNA合成及衛星展開機構取得資本以擴張硬體供應能力。募資不等於技術驗證；公司主張與獨立證據必須分開。TRL無足夠可比證據，全部不填。半導體製程、封裝與記憶體不在本期重複。"
+    },
+    {
+      "kind": "main",
+      "title": "十大事件：交易、技術、競品、商業模式與DD",
+      "body": "### 1. Isomorphic Labs｜2026-11-17｜AI藥物設計\n- **事件**：Series C；**金額**：US$5B；**投資人／合作方**：Greenoaks、Sequoia Capital共同領投；a16z、Alphabet等參與。\n- **技術與生活類比**：IsoDDE結合分子結構、物理與生物資料的模擬模型，像在合成前先用虛擬風洞篩選藥物候選物。\n- **已公開證據／公司宣稱**：公司公布融資與研發管線，但未提供可核對的臨床成功率；不能從募資推論藥物已上市。\n- **競品**：Recursion、Insilico Medicine、傳統藥廠CADD。\n- **商業模式**：藥物共同研發、里程碑與授權、內部候選藥管線。\n- **商業化瓶頸**：臨床轉譯、毒性、IP歸屬與研發現金消耗。\n- **投資DD追問**：按靶點查前瞻性驗證、濕實驗命中率、候選物臨床階段及合作里程碑。\n- **TRL**：資料不足，未評定。\n\n### 2. Genesis AI｜2026-11-17｜通用工業機器人\n- **事件**：Series A；**金額**：US$500M；**投資人／合作方**：Khosla Ventures、Premji Invest、Eclipse共同領投；NVIDIA、Bpifrance等參與。\n- **技術與生活類比**：Eno採輪式底座、可折疊機身與靈巧手，結合模型、資料與整機控制，像能改變身形的工廠助手。\n- **已公開證據／公司宣稱**：路透報導少量客戶測試；預計2027擴大部署，尚無公開可核對的量產稼動率。\n- **競品**：Figure AI、Agility Robotics、Physical Intelligence。\n- **商業模式**：機器人設備、整合、軟體與維運。\n- **商業化瓶頸**：安全認證、訓練資料、維修及單位經濟。\n- **投資DD追問**：取得客戶工位連續運作log、人工接管率、每小時有效產出與保固成本。\n- **TRL**：資料不足，未評定。\n\n### 3. Science Corporation｜2026-11-17｜視網膜神經義體\n- **事件**：Series D；**金額**：US$400M；**投資人／合作方**：Khosla Ventures、Tenet Healthcare、Y Combinator等參與；領投未揭露。\n- **技術與生活類比**：PRIMA將眼鏡影像以近紅外光投射到視網膜下晶片，刺激殘存神經，像為視覺系統裝上外部訊號轉接器。\n- **已公開證據／公司宣稱**：歐洲CE標誌與德國商用報導；美國HDE尚待核准，估值US$3.5B為媒體引述非公司正式公告。\n- **競品**：Second Sight相關技術、其他視覺義體與視覺復健。\n- **商業模式**：植入器材、手術與配套設備、醫院導入。\n- **商業化瓶頸**：臨床效益、手術不良事件、給付與醫院採購。\n- **投資DD追問**：分開核對CE適應症、FDA路徑、臨床對照與支付，不把上市許可當成給付。\n- **TRL**：資料不足，未評定。\n\n### 4. Payhawk｜2026-11-18｜企業財務AI Agent\n- **事件**：Series C；**金額**：US$280M；**投資人／合作方**：Goldman Sachs Growth Equity領投；QED、Greenoaks、Lightspeed等參與。\n- **技術與生活類比**：以權限控管的代理串接企業付款、費用、採購及帳務，如受稽核的虛擬財務助理。\n- **已公開證據／公司宣稱**：公司披露估值US$2B；交易仍受例行監管核准；未取得獨立Agent錯誤率。\n- **競品**：Ramp、Brex、SAP Concur。\n- **商業模式**：企業SaaS、支付與財務工作流程。\n- **商業化瓶頸**：跨國合規、錯誤付款、ERP整合及資料安全。\n- **投資DD追問**：核對自動結帳成功率、人工覆核時間、付費留存及法遵事件。\n- **TRL**：資料不足，未評定。\n\n### 5. Model ML｜2026-11-17｜金融專業AI Agent\n- **事件**：Series B；**金額**：US$250M；**投資人／合作方**：General Atlantic與QED Investors共同領投。\n- **技術與生活類比**：將金融資料、文件、模型及報告工作流串接成代理，像有資料室權限的分析師助理。\n- **已公開證據／公司宣稱**：公司公布估值US$1.5B與全球金融機構部署；缺獨立錯誤率及付費使用量。\n- **競品**：Hebbia、Rogo、Microsoft Copilot。\n- **商業模式**：金融企業軟體授權與整合。\n- **商業化瓶頸**：資料授權、模型幻覺、審計追溯與客戶集中。\n- **投資DD追問**：查核真實投行案件節省工時、資料溯源、機密權限與續約。\n- **TRL**：資料不足，未評定。\n\n### 6. Ramon.Space｜2026-11-17｜太空邊緣運算\n- **事件**：Series B；**金額**：US$124M；**投資人／合作方**：PSG領投；Micron、Senvest等參與。\n- **技術與生活類比**：在衛星上先處理感測資料再下傳，如把雲端運算小型機房搬到軌道。\n- **已公開證據／公司宣稱**：公司宣稱已有在軌實績與客戶，未公開可比的輻射失效率及每節點成本。\n- **競品**：BAE Systems、Teledyne及其他抗輻射運算供應商。\n- **商業模式**：航太運算模組、軟硬體平台與任務整合。\n- **商業化瓶頸**：輻射可靠度、功耗、熱設計、航太級驗證與交期。\n- **投資DD追問**：取得在軌飛行履歷、SEU率、功耗／吞吐量及客戶驗收。\n- **TRL**：資料不足，未評定。\n\n### 7. Ansa Biotechnologies｜2026-11-18｜酵素DNA合成\n- **事件**：Series C；**金額**：US$71.5M；**投資人／合作方**：Blue Water Life Science Advisors領投；Illumina Ventures等參與。\n- **技術與生活類比**：以酵素逐步建構DNA序列，像依照數位藍圖精密列印長篇基因程式。\n- **已公開證據／公司宣稱**：公司宣稱可交付最長50kb克隆DNA、過去一年產能增四倍；獨立錯誤率與成本未全面公開。\n- **競品**：Twist Bioscience、Integrated DNA Technologies、傳統化學合成。\n- **商業模式**：按序列收費的合成DNA服務與通路合作。\n- **商業化瓶頸**：複雜序列收率、錯誤校正、交期、製造成本與生物安全。\n- **投資DD追問**：以盲測複雜序列比較成功率、每鹼基成本、重製率與交期履約。\n- **TRL**：資料不足，未評定。\n\n### 8. Dcubed｜2026-11-18｜衛星展開機構與太陽能\n- **事件**：Series A+；**金額**：EUR27.2M；**投資人／合作方**：Warsaw Equity Group領投；EIC Fund與HTGF Opportunity Fund參與。\n- **技術與生活類比**：發射時折疊太陽能板與機構，到軌道後釋放展開，像把折疊傘送進太空再打開。\n- **已公開證據／公司宣稱**：公司稱逾500項產品在軌、170多名客戶；ARAQYS新型太陽能陣列預計2027在軌。\n- **競品**：Redwire、Beyond Gravity及其他衛星機構供應商。\n- **商業模式**：飛行級機構、太陽能模組銷售與整合。\n- **商業化瓶頸**：展開失敗、振動、熱循環、空間環境可靠性。\n- **投資DD追問**：逐產品核對飛行履歷與新產品試驗，不把既有機構在軌實績轉移給未飛行陣列。\n- **TRL**：資料不足，未評定。\n\n### 9. Botsync｜2026-11-18｜多品牌工廠物流機器人\n- **事件**：未明確揭露；**金額**：US$11M；**投資人／合作方**：IvyCap Ventures領投；AppWorks、Capital 2B等參與。\n- **技術與生活類比**：用廠內調度平台整合不同品牌移動機器人與物流設備，如跨車隊交通指揮中心。\n- **已公開證據／公司宣稱**：公司宣稱完成大量生產任務與專案，仍需客戶端獨立驗收。\n- **競品**：Geek+、MiR及工廠物流系統整合商。\n- **商業模式**：AMR設備、調度軟體、部署與維運。\n- **商業化瓶頸**：跨品牌協定、現場變更、停機與整合毛利。\n- **投資DD追問**：核對跨廠商接入成本、停機率、部署週期及每站點毛利。\n- **TRL**：資料不足，未評定。\n\n### 10. Isomorphic Labs × MSD｜2026-11-19｜AI製藥合作\n- **事件**：研發合作，非融資；**金額**：金額未揭露；**投資人／合作方**：合作方為MSD；未公布投資輪次。\n- **技術與生活類比**：將AI分子設計與藥廠的專有資料、藥理驗證結合，如設計引擎與實驗工廠接軌。\n- **已公開證據／公司宣稱**：雙方確認合作，但標的、里程碑金額與臨床成效未揭露。\n- **競品**：其他AI製藥平台與藥廠自建模型。\n- **商業模式**：研發合作、潛在授權與里程碑付款。\n- **商業化瓶頸**：資料使用權、藥物候選歸屬、濕實驗及臨床驗證。\n- **投資DD追問**：核對靶點數、資料權利、排他性與每階段go/no-go標準。\n- **TRL**：資料不足，未評定。"
+    },
+    {
+      "kind": "technology",
+      "title": "跨領域技術與資本配置解讀",
+      "body": "AI藥物設計：預測分子與疾病作用可降低候選篩選成本，但仍須實驗與臨床證實。工業機器人：通用模型、靈巧手、整機控制與現場維修必須同時成立。太空邊緣運算：把資料先在軌道處理，減少下傳需求，但受輻射、功耗、散熱與發射成本限制。酵素DNA合成：把AI生成的基因設計轉成實體樣品，評估重點從模型性能轉向可交付品質、成本及交期。"
+    },
+    {
+      "kind": "dd",
+      "title": "投資DD框架與風險優先順序",
+      "body": "1. 融資：確認輪次、是否交割、估值來源、稀釋與資金跑道；媒體傳聞不得視為完成交易。\n2. 技術：要求第三方測試、原始數據、對照組、樣本數、失敗紀錄及適用場景；不要用示範影片評TRL。\n3. IP：查專利請求項、資料及模型授權、FTO限制；專利檢索不等於法律意見。\n4. BD：區分意向書、付費PoC、正式訂單與已認列營收；核對客戶驗收。\n5. 財務：比較單位經濟、設備CAPEX、服務成本、毛利及現金消耗。\n6. 法規：醫材須分開核對上市許可、臨床證據、編碼、給付及實際採用；航太與機器人查安全、出口與可靠度。\n**分析**：大型募資應優先審查可重現的里程碑和資本效率，不能用估值反推市場成熟度。"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "TRL",
+      "definition": "技術成熟度，必須依特定產品、任務及驗證環境判斷"
+    },
+    {
+      "term": "Series C",
+      "definition": "通常指新創的第三輪主要股權募資，實際權利依交易條款"
+    },
+    {
+      "term": "VLA",
+      "definition": "視覺—語言—動作模型，將指令與感測映射成機器人動作"
+    },
+    {
+      "term": "IsoDDE",
+      "definition": "Isomorphic Labs的AI藥物設計引擎"
+    },
+    {
+      "term": "HDE",
+      "definition": "美國FDA人道使用器材豁免上市路徑，須與HUD指定區分"
+    },
+    {
+      "term": "Edge Computing",
+      "definition": "在資料產生位置附近處理，而非全部送至遠端雲端"
+    },
+    {
+      "term": "Clonal DNA",
+      "definition": "由單一克隆來源取得、經序列確認的DNA產品"
+    },
+    {
+      "term": "FTO",
+      "definition": "專利自由實施分析，需按有效請求項與法域判斷"
+    },
+    {
+      "term": "Unit Economics",
+      "definition": "單位產品、客戶或服務的收入與完整成本關係"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Isomorphic Labs 官方公告或可靠報導（2026-11-17）",
+      "url": "https://www.isomorphiclabs.com/articles/isomorphic-labs-announces-series-c-investment-round"
+    },
+    {
+      "title": "Genesis AI 官方公告或可靠報導（2026-11-17）",
+      "url": "https://www.reuters.com/business/finance/french-robot-maker-genesis-raises-500-million-35-billion-valuation-2026-11-17/"
+    },
+    {
+      "title": "Science Corporation 官方公告或可靠報導（2026-11-17）",
+      "url": "https://techcrunch.com/2026/11/17/science-corporations-brain-tech-is-worth-3-5-billion-after-new-funding/"
+    },
+    {
+      "title": "Payhawk 官方公告或可靠報導（2026-11-18）",
+      "url": "https://payhawk.com/blog/payhawk-series-c-280m-funding"
+    },
+    {
+      "title": "Model ML 官方公告或可靠報導（2026-11-17）",
+      "url": "https://modelml.com/articles/model-ml-raises-250-million-at-1.5-billion-valuation-18-months-after-launching-from-stealth"
+    },
+    {
+      "title": "Ramon.Space 官方公告或可靠報導（2026-11-17）",
+      "url": "https://ramon.space/press/ramon-space-raises-124-million-series-b-leading-the-next-era-of-computing-in-orbit/"
+    },
+    {
+      "title": "Ansa Biotechnologies 官方公告或可靠報導（2026-11-18）",
+      "url": "https://ansabio.com/news-events/pr/series-c-press-release/"
+    },
+    {
+      "title": "Dcubed 官方公告或可靠報導（2026-11-18）",
+      "url": "https://dcubed.space/dcubed-raises-oversubscribed-e27-2m-round-to-accelerate-global-leadership-in-space-deployment-systems-and-power/"
+    },
+    {
+      "title": "Botsync 官方公告或可靠報導（2026-11-18）",
+      "url": "https://www.botsync.co/blog/weve-raised-us11-million-to-help-factories-run-as-one"
+    },
+    {
+      "title": "Isomorphic Labs × MSD 官方公告或可靠報導（2026-11-19）",
+      "url": "https://www.isomorphiclabs.com/articles/isomorphic-labs-enters-into-a-research-collaboration-with-msd"
+    }
+  ]
+}
